@@ -1,8 +1,6 @@
 primary:
   - text: Overview
-    href: /
-  - text: Lifecycle of a Launch
-    href: ato/
+    href: overview/
   - text: Steps
     href: steps/
     links: steps
