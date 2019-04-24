@@ -1,5 +1,7 @@
 ---
 title: Steps of the ATO process
+sidenav: steps
+sticky_sidenav: true
 ---
 
 "The ATO process", as it's commonly called, is formally defined in the National Institute of Standards & Technology (NIST)'s [Risk Management Framework (RMF)](<https://csrc.nist.gov/projects/risk-management/risk-management-framework-(RMF)-Overview>):

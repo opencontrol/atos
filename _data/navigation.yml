@@ -5,6 +5,7 @@ primary:
     href: ato/
   - text: Steps
     href: steps/
+    links: steps
   - text: System Security Plan
     href: ssp/
   - text: Impact Levels
@@ -13,3 +14,17 @@ primary:
     href: tips/
   - text: Laws
     href: laws/
+
+steps:
+  - text: "1: Categorize System"
+    href: steps/#step-1-categorize-information-system
+  - text: "2: Select Controls"
+    href: steps/#step-2-select-security-controls
+  - text: "3: Implement Controls"
+    href: steps/#step-3-implement-security-controls
+  - text: "4: Assess Controls"
+    href: steps/#step-4-assess-security-controls
+  - text: "5: Authorize System"
+    href: steps/#step-5-authorize-information-system
+  - text: "6: Monitor Controls"
+    href: steps/#step-6-monitor-security-controls
