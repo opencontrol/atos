@@ -24,63 +24,7 @@ ATO Sprints are staffed by cross-divisionally. Beyond the project team roles (ex
 
 ### Steps
 
-#### Step 1 — Determine impact level
-
-Your system's impact level needs to be categorized, using the [ATO Levels](levels/) guide. If your system will be providing novel or risky functions, or handling extremely sensitive data, do this as early as possible.
-
-#### Step 2 — Select controls
-
-"Controls" are individual security requirements laid out by the National Institute of Standards and Technology (NIST).
-Your system's impact level baseline will determine the controls you need to implement.
-
-#### Step 3 — Document the controls
-
-This step is essentially "state how your system meets each of the regulations". Using established web frameworks (Rails, Django, etc.) and hosting in a platform takes care of a lot of the lower-level controls and security best practices for you, so you only need to be concerned with your application's custom code and configuration. This custom code and configuration is known as the "attack surface". The final version of this document is called the [System Security Plan](ssp/).
-
-##### Compliance Masonry
-
-The [Compliance Masonry](https://github.com/opencontrol/compliance-masonry) YAML file uses structured data to state how each control is one of the following:
-
-* Not relevant to the system
-* Relevant to the system, and is one of the following:
-    * Taken care of by one of:
-        * The platform
-        * The framework (Django, etc)
-        * The authorization layer
-        * Etc.
-    * Implemented by you
-    * Not yet taken care of
-
-An "inherited" control would be something like FedRAMP requiring that fire extinguishers be present near the servers, which is something that AWS needs to worry about for _their_ compliance, and we don't need to re-explain when launching an application hosted there. Your Masonry file essentially contains the "overrides".
-
-The controls that are _not_ inherited from an underlying system must be listed in your Masonry file with a short explanation ("narrative"), and "implemented" before the system can receive an ATO. "Implementation" in the compliance sense is the same as in the code sense: ensure that the system meets that requirement, based on current industry best practices.
-
-#### Step 4 — Assess the controls
-
-In other words, "verify that your system is secure". The first step in doing so is to running security scans. This is a preliminary assessment, final assessment will be done in collaboration with your ISSO. You are encouraged to run scans yourself, so that there aren't big surprises during the ATO Sprint.
-
-In parallel, you will collaborate with an assessor to verify all the controls in the SSP.
-
-#### Step 5 — Complete documentation package
-
-Fill out the documentation. The full list of data and functions in and of the system (in government parlance "mission based information types" and "delivery mechanisms") must be itemized in structured data. While the data types are obviously arbitrary and custom to each system we produce, the government has a formalized data set of mission functions that should be mapped to the system via [NIST 800-60](http://csrc.nist.gov/groups/SMA/fisma/categorization.html). For a Rails app, for example, this can simply be a link to the `db/schema.rb` file on GitHub.
-
-#### Step 6 — Authorize the system
-
-TODO
-
-There will usually be a penetration test conducted on the system. Any penetration test findings deemed serious enough to prevent an ATO will need to be fixed right away to unblock the ATO process. They will also review the SSP document and test the control narratives. This testing and review process will take 1-2 weeks and should be the top priority for the project team at the time.
-
-Once all of the materials are prepared and testing is done and the system is considered "ready" by the Authorizing Official, they will sign the ATO memo.
-
-#### Step 7 — Continuously monitor the controls
-
-There are several ways to ensure that your system remains compliant:
-
-* Act on any security notifications from your [static analysis](../security/static-analysis/).
-* Perform and act on findings from [dynamic scanning](../security/dynamic-scanning/).
-* Keep your System Security Plan (and any other architecture/security-related documentation) up-to-date.
-* [Re-certify your Privacy Threshold Analysis (PTA).](../privacy/#re-certification)
+See [Background](../background/).
 
 ### Re-authorization
 
