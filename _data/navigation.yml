@@ -11,6 +11,8 @@ primary:
     links: tips
 
 steps:
+  - text: Introduction
+    href: steps/#top
   - text: "1: Categorize System"
     href: steps/#step-1-categorize-information-system
   - text: "2: Select Controls"
