@@ -4,27 +4,21 @@ title: Lifecycle of a Launch
 
 Every federal information system must go through NIST's [Risk Management Framework](steps/) before it can be used to process federal information. This process culminates in a signed Authority to Operate (ATO) being issued. Because the ATO process is a complex, multi-step process which will constrain the design and implementation of your system, you should start thinking about how it applies to your system _before_ you begin designing and implementing it.
 
-### Key roles
-
-- **Authorizing Official (AO)** The AO is ultimately responsible for determining if the risk of operating the system is acceptable, and if so, issuing an Authority to Operate (ATO) for that system.
-- **System Owner** The system owner is usually the product lead or tech lead of the project team. They will be named in the ATO documents and are the main contact during the evaluation process that leads up to an ATO.
-
 ### Definitions
 
 - **Information system** means a discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information ([44 U.S.C. § 3502](https://www.law.cornell.edu/uscode/text/44/3502#8)).
 
-### Team
+### Roles
 
-ATO Sprints are staffed by cross-divisionally. Beyond the project team roles (ex: system owner, product owner, etc) ATO Sprint roles typically include:
+Roles in ATO processes typically include:
 
-- **Authorizing Official (AO)**: Responsible for overall impact categorization and risk acceptance.
+- **Assessor**: Validates and verifies that the documented controls (see [Step 3](../steps/#step-3-implement-security-controls)) actually work, using the assessment cases (see [Step 4](../steps/#step-4-assess-security-controls)).
+- **Authorizing Official (AO)**: Responsible for overall impact categorization and risk acceptance. The AO is ultimately responsible for determining if the risk of operating the system is acceptable, and if so, issuing an Authority to Operate (ATO) for that system.
 - **Information System Security Officer (ISSO)**: Supports the information security system, consults on control selection, organizes scanning process. Reports to the Information System Security Manager (ISSM).
 - **Penetration tester(s)**: Conducts the penetration test after terms are agreed to as documented in the Rules of Engagement (RoE).
-- **Assessor**: Validates and verifies that the documented controls (see [Step 3](#step-3--document-the-controls)) actually work, using the assessment cases (see [Step 4](#step-4--assess-the-controls)).
+- **System Owner** The system owner is usually the product lead or tech lead of the project team. They will be named in the ATO documents and are the main contact during the evaluation process that leads up to an ATO.
 
-### Steps
-
-See [Background](../steps/).
+The long version: [NIST SP 800-37r2 Appendix D](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf#page=133)
 
 ### Re-authorization
 
