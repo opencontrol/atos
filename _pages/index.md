@@ -1,10 +1,25 @@
 ---
-title: What's an ATO?
+title: Home
 permalink: /
+layout: home
+hero:
+  # https://pixabay.com/photos/pile-paper-page-list-3324375/
+  image: assets/img/paper.jpg
+  callout:
+    alt: What's an ATO, anyway?
+    text: Learn more about security compliance.
+  button:
+    text: Overview
+    href: overview/
 ---
 
 The goal of this guide is to provide project teams with information they need to launch software from a technical and compliance perspective. It explains requirements and best practices for projects, and the process of obtaining an ATO.
+{: .usa-font-lead }
 
-For an introduction to compliance for federal information systems, check out this video.
+An introduction to compliance for federal information systems:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-Nc4GXPxpQg?list=PLd9b-GuOJ3nG5zDAg7exOHusZKVVrkhjO" frameborder="0" allowfullscreen></iframe>
+<div class="usa-width-full">
+  <div class="usa-embed-container" aria-label="16:9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-Nc4GXPxpQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
