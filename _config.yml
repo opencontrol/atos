@@ -1,4 +1,4 @@
-name: Before you ship
+name: Introduction to ATOs
 exclude:
 - CONTRIBUTING.md
 - Gemfile
@@ -18,12 +18,12 @@ sass:
 
 # Author/Organization info to be displayed in the templates
 author:
-  name: 18F
-  url: https://18f.gsa.gov
+  name: OpenControl
+  url: https://open-control.org
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
-logourl: /assets/img/18f-logo.png
-logoalt: 18F logo
+logourl: https://github.com/opencontrol.png
+logoalt: OpenControl logo
 
 # Navigation
 # List links that should appear in the site sidebar here
@@ -35,12 +35,6 @@ navigation:
   url: ato/
   internal: true
   children:
-  - text: Checklist
-    url: checklist/
-    internal: true
-  - text: Types
-    url: types/
-    internal: true
   - text: System Security Plan
     url: ssp/
     internal: true
@@ -58,15 +52,8 @@ navigation:
   internal: true
 
 repos:
-- name: Guides Template
-  description: Main repository
-  url: https://github.com/18F/before-you-ship
-
-google_analytics_ua: UA-48605964-19
-
-back_link:
-  url: "https://pages.18f.gov/guides/"
-  text: Read more 18F guides
+- name: Introduction to ATOs
+  url: https://github.com/opencontrol/atos
 
 styles:
   - assets/css/custom.css
