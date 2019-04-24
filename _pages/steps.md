@@ -12,7 +12,7 @@ The steps in the process are as follows:
 
 ## Step 1: Categorize Information System
 
-The information systems' owner, working with the AO, categorizes the system based on the potential impact on the organization if the information system, or the information within it, is jeopardized. The system will end up with a category of _low_, _moderate_ or _high_, based on criteria described in [FIPS Publication 199](http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf), which is summarized [here](../levels/).
+The information systems' owner, working with the AO, categorizes the system based on the potential impact on the organization if the information system, or the information within it, is jeopardized. The system will end up with a category of _low_, _moderate_ or _high_, based on criteria described [here](../categorization/).
 
 If your system will be providing novel or risky functions, or handling extremely sensitive data, do this as early as possible.
 

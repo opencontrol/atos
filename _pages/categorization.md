@@ -1,5 +1,5 @@
 ---
-title: Impact Levels
+title: Security Categorization
 ---
 
 ## Overview

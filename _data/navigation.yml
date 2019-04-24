@@ -4,8 +4,8 @@ primary:
   - text: Steps
     href: steps/
     links: steps
-  - text: Impact Levels
-    href: levels/
+  - text: Categorization
+    href: categorization/
   - text: Tips
     href: tips/
     links: tips

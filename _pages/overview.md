@@ -33,7 +33,7 @@ Your system may need to be reassessed and re-authorized if your application team
 
 - Encryption methodologies
 - Administrative functionality within the application
-- The kinds of information you store (for example, [personally identifiable information (PII)](../levels/#pii))
+- The kinds of information you store (for example, [personally identifiable information (PII)](../categorization/#pii))
 - The external services used or how/what data flows to/from them
 - Anything that will requires an update to the System Security Plan, system diagram, etc.
 
