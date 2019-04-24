@@ -15,3 +15,8 @@ defaults:
       path: "_pages"
     values:
       layout: "page"
+
+github:
+  organization: opencontrol
+  repository: atos
+  default_branch: master
