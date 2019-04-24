@@ -15,10 +15,10 @@ The information system's owner, working with the AO, decides which controls shou
 
 * *The impact level of the system* (low, moderate or high). SP 800-53 provides a "baseline" set of controls for each level. The higher the level, the more controls or control enhancements are in scope. For systems running on cloud infrastructure, you should consult [FedRAMP's security control documentation](https://www.fedramp.gov/resources/documents-2016/).
 * *Which controls are already taken care of by your infrastructure*. If you're running in the cloud, many controls are taken care of at the infrastructure or platform layer. If your provider has received a FedRAMP P-ATO, it will provide a document called a _customer responsibility matrix_ (CRM) or _control implementation summary_ (CIS) listing the residual or hybrid controls that are the responsibility (or partial responsibility) of the applications running on the infrastructure or platform.
-* *What type of ATO you want to receive*. The GSA provides a "lightweight" ATO process designed for pilot systems running on GSA authorized infrastructure, for which fewer controls are in scope.
+* *What type of ATO you want to receive*.
 * *Tailoring*. The information system owner, working with the AO and the agency's information security team, can then add, remove or modify controls to achieve cost-effective, risk-based security, based on the agency's mission or business need.
 
-This step should happen as an integral part of any system design activities. The team should also develop a monitoring strategy to ensure that security controls continue to be effective once the system receives its authority to operate. The results of this step of the RMF are documented in a _System Security Plan_, or SSP. SSP templates are available for both GSA LATOs and FedRAMP ATOs.
+This step should happen as an integral part of any system design activities. The team should also develop a monitoring strategy to ensure that security controls continue to be effective once the system receives its authority to operate. The results of this step of the RMF are documented in a _System Security Plan_, or SSP.
 
 ### Step 3: Implement Security Controls
 
@@ -26,9 +26,9 @@ As part of system development work, controls are implemented. The implementation
 
 ### Step 4: Assess Security Controls
 
-Before your system can go live with government information, your contol implementation must be tested. Testing is often performed by the development team and infrastructure team working together with the agency's information security team, based on a security assessment plan. The security assessment plan will depend upon the type of ATO. FedRAMP has a [Security Assessment Framework](https://www.fedramp.gov/resources/documents-2016/) for FedRAMP ATOs, as does the GSA for its LATOs.
+Before your system can go live with government information, your contol implementation must be tested. Testing is often performed by the development team and infrastructure team working together with the agency's information security team, based on a security assessment plan. The security assessment plan will depend upon the type of ATO. FedRAMP has a [Security Assessment Framework](https://www.fedramp.gov/resources/documents-2016/) for FedRAMP ATOs.
 
-The results of the assessment are documented in a _security assessment report_ (SAR). Depending on the findings of the security assessment, remediation work may have to take place before the system receives its ATO. Other problems that are less critical can be remediated at a later date: these are listed in a document called a _plan of action and milestones_ (POAM or POA&M). POAM templates are available for both GSA LATOs and FedRAMP ATOs.
+The results of the assessment are documented in a _security assessment report_ (SAR). Depending on the findings of the security assessment, remediation work may have to take place before the system receives its ATO. Other problems that are less critical can be remediated at a later date: these are listed in a document called a _plan of action and milestones_ (POAM or POA&M).
 
 ### Step 5: Authorize Information System
 
@@ -40,6 +40,6 @@ Once a system receives an ATO, it must be assessed at regular intervals to ensur
 
 ### An introduction to compliance
 
-For an introduction to compliance for federal information systems, check out this video by 18F's Aidan Feldman.
+For an introduction to compliance for federal information systems, check out this video.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-Nc4GXPxpQg?list=PLd9b-GuOJ3nG5zDAg7exOHusZKVVrkhjO" frameborder="0" allowfullscreen></iframe>

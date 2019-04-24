@@ -1,9 +1,0 @@
-version: 2
-jobs:
-  build:
-    docker:
-      - image: starefossen/ruby-node:2-8
-    steps:
-      - checkout
-      - run: gem install bundler
-      - run: ./go ci_test
