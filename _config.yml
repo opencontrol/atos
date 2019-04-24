@@ -12,9 +12,9 @@ collections:
 
 defaults:
   - scope:
-      path: "_pages"
+      path: _pages
     values:
-      layout: "page"
+      layout: page
 
 github:
   organization: opencontrol
