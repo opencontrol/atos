@@ -2,6 +2,10 @@
 title: Background on the Risk Management Process
 ---
 
+"The ATO process", as it's commonly called, is formally defined in the National Institute of Standards & Technology (NIST)'s [Risk Management Framework (RMF)](<https://csrc.nist.gov/projects/risk-management/risk-management-framework-(RMF)-Overview>):
+
+![NIST Risk Management Framework diagram]((https://csrc.nist.gov/CSRC/media/Projects/Risk-Management/images-media/OrgRMF_v3.png)
+
 The steps in the process are as follows:
 
 ### Step 1: Categorize Information System
