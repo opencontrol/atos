@@ -33,7 +33,7 @@ This step should happen as an integral part of any system design activities. The
 
 As part of system development work, controls are implemented. The implementation is documented in the SSP.
 
-This step is essentially "state how your system meets each of the regulations". Using established web frameworks (Rails, Django, etc.) and hosting in a platform takes care of a lot of the lower-level controls and security best practices for you, so you only need to be concerned with your application's custom code and configuration. This custom code and configuration is known as the "attack surface". The final version of this document is called the [System Security Plan](ssp/).
+This step is essentially "state how your system meets each of the regulations". Using established web frameworks (Rails, Django, etc.) and hosting in a platform takes care of a lot of the lower-level controls and security best practices for you, so you only need to be concerned with your application's custom code and configuration. This custom code and configuration is known as the "attack surface". The final version of this document is called the System Security Plan.
 
 Fill out the documentation. The full list of data and functions in and of the system (in government parlance "mission based information types" and "delivery mechanisms") must be itemized in structured data. While the data types are obviously arbitrary and custom to each system we produce, the government has a formalized data set of mission functions that should be mapped to the system via [NIST 800-60](http://csrc.nist.gov/groups/SMA/fisma/categorization.html). For a Rails app, for example, this can simply be a link to the `db/schema.rb` file on GitHub.
 

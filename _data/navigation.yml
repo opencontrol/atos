@@ -4,8 +4,6 @@ primary:
   - text: Steps
     href: steps/
     links: steps
-  - text: System Security Plan
-    href: ssp/
   - text: Impact Levels
     href: levels/
   - text: Tips

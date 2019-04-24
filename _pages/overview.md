@@ -7,6 +7,7 @@ Every federal information system must go through NIST's [Risk Management Framewo
 ### Definitions
 
 - **Information system** means a discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information ([44 U.S.C. § 3502](https://www.law.cornell.edu/uscode/text/44/3502#8)).
+- **System Security Plan (SSP):** "The purpose...is to provide an overview of the security requirements of the system and describe the controls in place or planned for meeting those requirements." ([NIST SP 800-18](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf#page=7))
 
 ### Roles
 
@@ -18,7 +19,7 @@ Roles in ATO processes typically include:
 - **Penetration tester(s)**: Conducts the penetration test after terms are agreed to as documented in the Rules of Engagement (RoE).
 - **System Owner** The system owner is usually the product lead or tech lead of the project team. They will be named in the ATO documents and are the main contact during the evaluation process that leads up to an ATO.
 
-The long version: [NIST SP 800-37r2 Appendix D](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf#page=133)
+The long version: [NIST SP 800-37 Appendix D](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf#page=133)
 
 ### FISMA
 
