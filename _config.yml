@@ -34,19 +34,21 @@ navigation:
 - text: Lifecycle of a Launch
   url: ato/
   internal: true
-  children:
-  - text: System Security Plan
-    url: ssp/
-    internal: true
-  - text: Impact Levels
-    url: levels/
-    internal: true
-  - text: Background
-    url: background/
-    internal: true
-  - text: Tips
-    url: tips/
-    internal: true
+- text: Background
+  url: background/
+  internal: true
+- text: System Security Plan
+  url: ssp/
+  internal: true
+- text: Impact Levels
+  url: levels/
+  internal: true
+- text: Background
+  url: background/
+  internal: true
+- text: Tips
+  url: tips/
+  internal: true
 - text: Laws
   url: laws/
   internal: true
