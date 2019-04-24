@@ -12,8 +12,6 @@ primary:
     href: levels/
   - text: Tips
     href: tips/
-  - text: Laws
-    href: laws/
 
 steps:
   - text: "1: Categorize System"
