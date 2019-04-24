@@ -8,6 +8,7 @@ primary:
     href: levels/
   - text: Tips
     href: tips/
+    links: tips
 
 steps:
   - text: "1: Categorize System"
@@ -22,3 +23,11 @@ steps:
     href: steps/#step-5-authorize-information-system
   - text: "6: Monitor Controls"
     href: steps/#step-6-monitor-security-controls
+
+tips:
+  - text: General
+    href: tips/#general
+  - text: SSPs
+    href: tips/#system-security-plans-ssps
+  - text: Diagrams
+    href: tips/#systemnetwork-diagrams

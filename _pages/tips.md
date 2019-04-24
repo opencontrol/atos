@@ -1,5 +1,7 @@
 ---
 title: Tips
+sidenav: tips
+sticky_sidenav: true
 ---
 
 ## General
