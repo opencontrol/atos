@@ -36,9 +36,3 @@ The SSP, SAR and POAM together form a _security authorization package_ (FedRAMP 
 ### Step 6: Monitor Security Controls
 
 Once a system receives an ATO, it must be assessed at regular intervals to ensure the effectiveness of the control implementation. Any changes to the system's security boundary or its environment should also be assessed to determine their impact.
-
-### An introduction to compliance
-
-For an introduction to compliance for federal information systems, check out this video.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-Nc4GXPxpQg?list=PLd9b-GuOJ3nG5zDAg7exOHusZKVVrkhjO" frameborder="0" allowfullscreen></iframe>
