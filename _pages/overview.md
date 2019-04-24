@@ -4,12 +4,12 @@ title: Overview
 
 Every federal information system must go through NIST's [Risk Management Framework](steps/) before it can be used to process federal information. This process culminates in a signed Authority to Operate (ATO) being issued. Because the ATO process is a complex, multi-step process which will constrain the design and implementation of your system, you should start thinking about how it applies to your system _before_ you begin designing and implementing it.
 
-### Definitions
+## Definitions
 
 - **Information system** means a discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information ([44 U.S.C. § 3502](https://www.law.cornell.edu/uscode/text/44/3502#8)).
 - **System Security Plan (SSP):** "The purpose...is to provide an overview of the security requirements of the system and describe the controls in place or planned for meeting those requirements." ([NIST SP 800-18](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf#page=7))
 
-### Roles
+## Roles
 
 Roles in ATO processes typically include:
 
@@ -21,13 +21,13 @@ Roles in ATO processes typically include:
 
 The long version: [NIST SP 800-37 Appendix D](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf#page=133)
 
-### FISMA
+## FISMA
 
 In the Federal government, the principal law governing the security of information systems is the **Federal Information Security Management Act (FISMA)**. For more information on FISMA, check out the [FISMA Ready introduction](https://github.com/fisma-ready/introduction).
 
 One of the goals of the Federal Information Security Management Act of 2002 (FISMA) is to “provide a comprehensive framework for ensuring the effectiveness of information security controls over information resources that support Federal operations and assets.” The National Institute of Standards and Technology (NIST) was tasked with designing and implementing this framework: the result is NIST’s Risk Management Framework (RMF). All federal information and information systems (except classified information and national security systems) are subject to NIST’s RMF. There's [an introduction to the RMF on NIST's website](http://csrc.nist.gov/groups/SMA/fisma/framework.html). A more comprehensive guide, including how to apply the framework, references to the various relevant publications, and definitions of roles and responsibilities, is found in NIST's [Special Publication 800-37](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r1.pdf).
 
-### Re-authorization
+## Re-authorization
 
 Your system may need to be reassessed and re-authorized if your application team is planning to make substantive changes, such as changes to:
 
@@ -48,6 +48,6 @@ The Authorizing Official determines whether a system needs re-authorization. If 
 
 If it needs re-authorization, follow the usual steps for getting an ATO. You should be able to reuse most of your existing ATO materials, assuming they have been kept up-to-date.
 
-### ATO renewal
+## ATO renewal
 
 If your current ATO is going to expire, you'll need the ATO to be renewed. Follow the usual steps for getting an ATO. You should be able to reuse most of your existing ATO materials, assuming they have been kept up-to-date.

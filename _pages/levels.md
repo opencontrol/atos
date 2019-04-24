@@ -2,7 +2,7 @@
 title: Impact Levels
 ---
 
-### Overview
+## Overview
 
 The impact level of your project is very important, and affects the process you'll follow to launch your project. At first you'll be making a prediction of your project impact level. As you enter the ATO assessment process the impact level will be determined with the help of your AO.
 
@@ -12,23 +12,23 @@ Once the potential impact on these three objectives is determined, the overall i
 
 Determining the impact levels is ultimately subjective; the AO makes the final determination.
 
-### Categorize using the 3 security objectives
+## Categorize using the 3 security objectives
 
 Go through each of the security objectives and determine the impact on the organization or individuals if the system is compromised. The framework we usually use is to ask ourselves (and the agency we are creating the system with) three worst case scenario questions:
 
-* What is the worst possible outcome if all of the _confidentiality_ of the system is lost? i.e.
-    * What if all of the data in the system is exposed to the public?
-* What is the worst possible outcome if all of the _integrity_ of the system is lost? i.e.
-    * What if an error makes it into the data?
-    * What if an update to the data is lost?
-* What is the worst possible outcome if all of the _availability_ of the system is lost? i.e.
-    * What if the system has downtime?
+- What is the worst possible outcome if all of the _confidentiality_ of the system is lost? i.e.
+  - What if all of the data in the system is exposed to the public?
+- What is the worst possible outcome if all of the _integrity_ of the system is lost? i.e.
+  - What if an error makes it into the data?
+  - What if an update to the data is lost?
+- What is the worst possible outcome if all of the _availability_ of the system is lost? i.e.
+  - What if the system has downtime?
 
 If the potential impact is a _limited_ adverse effect on organizational operations, organizational assets, or individuals, we select "low". If the potential adverse impact is _serious_, we select "moderate". If the potential adverse impact is _severe or catastrophic_, we choose "high".
 
 The answer to each question should then be interpreted in terms of impact to either the public or the government. The higher value for _either_ impacted party is be used.
 
-### Considerations
+## Considerations
 
 The canonical or singular nature of a function being provided by the system must be taken into consideration in the categorization. The more singular and canonical the system under evaluation is, the higher the impact level.
 
@@ -40,17 +40,17 @@ If there is any authorization or authentication being done, it is _likely_ at th
 
 Just because we need `availability: high`, doesn't mean it needs `confidentiality: high` or `integrity: high`. These determinations are important for later tailoring of system controls.
 
-### Selecting the overall impact level
+## Selecting the overall impact level
 
 Once you have decided on the impact level (`low`, `moderate`, `high`) for each of three objectives (`confidentiality`, `integrity`, and `availability`), you must then determine the overall impact level of the system. A _low impact system_ is one in which all three of the security objectives are `low`. A _moderate impact system_ is one in which at least one of the objectives is `moderate`, and none are `high`. A _high impact system_ is one in which at least one objective is `high`.
 
 For more information, see [NIST 800-18](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf):
 
-* [Table 1](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf#page=27) for FIPS categorization
-* [Section 3.13](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf#page=31) for security controls
+- [Table 1](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf#page=27) for FIPS categorization
+- [Section 3.13](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf#page=31) for security controls
 
-### Examples
+## Examples
 
-* Low: [CALC](https://calc.gsa.gov)
-* Moderate: [cloud.gov](https://cloud.gov), future-state of [fec.gov](https://fec.gov/).
-* High: the future-state of [login.gov](https://login.gov)
+- Low: [CALC](https://calc.gsa.gov)
+- Moderate: [cloud.gov](https://cloud.gov), future-state of [fec.gov](https://fec.gov/).
+- High: the future-state of [login.gov](https://login.gov)

@@ -10,13 +10,13 @@ sticky_sidenav: true
 
 The steps in the process are as follows:
 
-### Step 1: Categorize Information System
+## Step 1: Categorize Information System
 
 The information systems' owner, working with the AO, categorizes the system based on the potential impact on the organization if the information system, or the information within it, is jeopardized. The system will end up with a category of _low_, _moderate_ or _high_, based on criteria described in [FIPS Publication 199](http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf), which is summarized [here](../levels/).
 
 If your system will be providing novel or risky functions, or handling extremely sensitive data, do this as early as possible.
 
-### Step 2: Select Security Controls
+## Step 2: Select Security Controls
 
 "Controls" are individual security requirements laid out by the National Institute of Standards and Technology (NIST). NIST's encyclopedic [Special Publication 800-53](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf) (currently on revision 4) is the definitive guide to security and privacy controls for federal information systems.
 
@@ -29,7 +29,7 @@ Your AO determines which controls need to be implemented. This is generally base
 
 This step should happen as an integral part of any system design activities. The team should also develop a monitoring strategy to ensure that security controls continue to be effective once the system receives its authority to operate.
 
-### Step 3: Implement Security Controls
+## Step 3: Implement Security Controls
 
 As part of system development work, controls are implemented. The implementation is documented in the SSP.
 
@@ -37,7 +37,7 @@ This step is essentially "state how your system meets each of the regulations". 
 
 Fill out the documentation. The full list of data and functions in and of the system (in government parlance "mission based information types" and "delivery mechanisms") must be itemized in structured data. While the data types are obviously arbitrary and custom to each system we produce, the government has a formalized data set of mission functions that should be mapped to the system via [NIST 800-60](http://csrc.nist.gov/groups/SMA/fisma/categorization.html). For a Rails app, for example, this can simply be a link to the `db/schema.rb` file on GitHub.
 
-#### Compliance Masonry
+### Compliance Masonry
 
 The [Compliance Masonry](https://github.com/opencontrol/compliance-masonry) YAML file uses structured data to state how each control is one of the following:
 
@@ -55,7 +55,7 @@ An "inherited" control would be something like FedRAMP requiring that fire extin
 
 The controls that are _not_ inherited from an underlying system must be listed in your Masonry file with a short explanation ("narrative"), and "implemented" before the system can receive an ATO. "Implementation" in the compliance sense is the same as in the code sense: ensure that the system meets that requirement, based on current industry best practices.
 
-### Step 4: Assess Security Controls
+## Step 4: Assess Security Controls
 
 In other words, "verify that your system is secure".
 
@@ -65,13 +65,13 @@ There will usually be a penetration test conducted on the system. Any penetratio
 
 The results of the assessment are documented in a _security assessment report_ (SAR). Depending on the findings of the security assessment, remediation work may have to take place before the system receives its ATO. Other problems that are less critical can be remediated at a later date: these are listed in a document called a _plan of action and milestones_ (POAM or POA&M).
 
-### Step 5: Authorize Information System
+## Step 5: Authorize Information System
 
 The SSP, SAR and POAM together form a _security authorization package_ (FedRAMP requires a further document: a continuous monitoring strategy). The Authorizing Official will make a risk-based decision whether to grant an ATO based on the information in this package. This decision, made in consultation with other key stakeholders such as the CISO, balances security considerations with the mission and operational needs of the agency.
 
 Once all of the materials are prepared and testing is done and the system is considered "ready" by the Authorizing Official, they will sign the ATO memo. If an ATO is granted, an _authorization decision document_ is issued and signed by the AO which lists the conditions under which the ATO will remain valid, including the ATO's expiry date.
 
-### Step 6: Monitor Security Controls
+## Step 6: Monitor Security Controls
 
 Once a system receives an ATO, it must be assessed at regular intervals to ensure the effectiveness of the control implementation. Any changes to the system's security boundary or its environment should also be assessed to determine their impact.
 
