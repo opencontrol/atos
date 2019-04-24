@@ -1,6 +1,5 @@
 ---
-title: ATO Impact Levels
-navtitle: Impact Levels
+title: Impact Levels
 ---
 
 ### Overview

@@ -1,6 +1,5 @@
 ---
 title: What's an ATO?
-navtitle: Overview
 permalink: /
 ---
 

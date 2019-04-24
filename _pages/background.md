@@ -1,6 +1,5 @@
 ---
 title: Background on the Risk Management Process
-navtitle: Background
 ---
 
 The steps in the process are as follows:
