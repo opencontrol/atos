@@ -2,7 +2,7 @@
 title: Overview
 ---
 
-Every federal information system must go through NIST's [Risk Management Framework](steps/) before it can be used to process federal information. This process culminates in a signed Authority to Operate (ATO) being issued. Because the ATO process is a complex, multi-step process which will constrain the design and implementation of your system, you should start thinking about how it applies to your system _before_ you begin designing and implementing it.
+Every federal information system must go through NIST's [Risk Management Framework](../steps/) before it can be used to process federal information. This process culminates in a signed Authority to Operate (ATO) being issued. Because the ATO process is a complex, multi-step process which will constrain the design and implementation of your system, you should start thinking about how it applies to your system _before_ you begin designing and implementing it.
 
 ## Definitions
 
@@ -33,7 +33,7 @@ Your system may need to be reassessed and re-authorized if your application team
 
 - Encryption methodologies
 - Administrative functionality within the application
-- The kinds of information you store (for example, [personally identifiable information (PII)](../privacy/))
+- The kinds of information you store (for example, [personally identifiable information (PII)](../levels/#pii))
 - The external services used or how/what data flows to/from them
 - Anything that will requires an update to the System Security Plan, system diagram, etc.
 

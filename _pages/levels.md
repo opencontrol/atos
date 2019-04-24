@@ -34,11 +34,15 @@ The canonical or singular nature of a function being provided by the system must
 
 For example, if we re-post data from weather.gov, it is less impactful for us to lose availability than it is for weather.gov itself. Conversely, GSA is the only source of FedBizOpps data - therefore our availability is much more important for that data and function, and we should select a higher impact level for `availability`.
 
-Storing [personally identifiable information (PII)](../../privacy/) always raises the level to at least `moderate` for the `confidentiality` and `integrity` objectives.
-
 If there is any authorization or authentication being done, it is _likely_ at the `moderate` level for all metrics.
 
 Just because we need `availability: high`, doesn't mean it needs `confidentiality: high` or `integrity: high`. These determinations are important for later tailoring of system controls.
+
+### PII
+
+Privacy risk is partially assessed based on to the degree to which a program or information system collects and makes use of personally identifiable information (PII). Per [OMB Circular A-130](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a130/a130revised.pdf), PII is "information that can be used to distinguish or trace an individual's identity, either alone or when combined with other information that is linked or linkable to a specific individual."
+
+Storing PII always raises the level to at least `moderate` for the `confidentiality` and `integrity` objectives.
 
 ## Selecting the overall impact level
 
