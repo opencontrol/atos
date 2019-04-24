@@ -1,6 +1,6 @@
 title: Introduction to ATOs
 
-theme: uswds-jekyll
+remote_theme: 18F/uswds-jekyll
 
 styles:
   - assets/css/custom.css

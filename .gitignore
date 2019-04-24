@@ -5,3 +5,4 @@ _test_site/
 .DS_store
 .*.swp
 .jekyll-metadata
+Gemfile.lock
