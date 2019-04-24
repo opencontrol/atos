@@ -12,12 +12,10 @@ The system security plan (SSP) is a long Google Doc. OpenControl is actively wor
 
 * Remember that the reviewer knows nothing about your system, and likely doesn't have software development background. The purpose of the SSP is to get the entire system and everything security-related around it into the brain of the reviewer.
 * Filling out the SSP is hard, and will likely be the most time-consuming part of the ATO process.
-* Work with your Infrastructure Lead to complete the SSP.
 * Sections 9, 10, and 13 are the hard/important ones to fill out. Focus on these first.
 * It will be easiest to fill out your SSP while going through side-by-side with a recent SSP, ideally for a similar system.
     * Looking at another SSP will help you understand the language/detail required.
     * Reuse/adapt content from previous SSP(s) whenever possible.
-    * Your Infrastructure Lead can find an example SSP for you.
 * When filling out the SSP, try taking a rough first pass, and flesh it out later.
 * Don't Repeat Yourself.
     * Lots of controls and sections have overlap - you will be tempted to restate the same thing multiple times. If this seems to be the case, reread the question _carefully_ to be sure. The SSP template authors choose their words carefully.
@@ -34,7 +32,6 @@ The system security plan (SSP) is a long Google Doc. OpenControl is actively wor
 
 One of the requirements for an SSP (and the Rules of Engagement) is to include a network diagram for your system. Some tips:
 
-* Create this diagram as a Google Drawing so that your Infrastructure Lead and AO can comment/edit as needed.
 * The diagram should be as detailed as possible.
 * The boxes in the diagram should roughly correspond to the rows in the `Software Components` tables.
     * Include all external services, such as:

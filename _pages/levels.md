@@ -4,7 +4,7 @@ title: Impact Levels
 
 ### Overview
 
-The impact level of your project is very important, and affects the process you'll follow to launch your project. At first you'll be making a prediction of your project impact level. As you enter the ATO assessment process the impact level will be determined with the help of your Infrastructure Lead and AO.
+The impact level of your project is very important, and affects the process you'll follow to launch your project. At first you'll be making a prediction of your project impact level. As you enter the ATO assessment process the impact level will be determined with the help of your AO.
 
 The impact level is determined by the functionality of the system and the data it contains. The methodology defines three security objectives of the system: `confidentiality`, `integrity`, and `availability`. These security objectives are assigned one of three impact levels: `low`, `moderate`, or `high`. This process is described in [NIST's FIPS 199 publication](http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf).
 

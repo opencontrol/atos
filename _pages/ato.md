@@ -18,7 +18,6 @@ Every federal information system must go through NIST's [Risk Management Framewo
 ATO Sprints are staffed by cross-divisionally. Beyond the project team roles (ex: system owner, product owner, etc) ATO Sprint roles typically include:
 
 * **Authorizing Official (AO)**: Responsible for overall impact categorization and risk acceptance.
-* **Infrastructure Lead**: Manages infrastructure decisions and ATO queue within a business unit. In consult with the other leads, reaches consensus on what projects go into each sprint.
 * **Information System Security Officer (ISSO)**: Supports the information security system, consults on control selection, organizes scanning process. Reports to the Information System Security Manager (ISSM).
 * **Penetration tester(s)**: Conducts the penetration test after terms are agreed to as documented in the Rules of Engagement (RoE).
 * **Assessor**: Validates and verifies that the documented controls (see [Step 3](#step-3--document-the-controls)) actually work, using the assessment cases (see [Step 4](#step-4--assess-the-controls)).
@@ -27,7 +26,7 @@ ATO Sprints are staffed by cross-divisionally. Beyond the project team roles (ex
 
 #### Step 1 — Determine impact level
 
-Work with your Infrastructure Lead to categorize your system's impact levels, using the [ATO Levels](levels/) guide. If your system will be providing novel or risky functions, or handling extremely sensitive data, do this as early as possible.
+Your system's impact level needs to be categorized, using the [ATO Levels](levels/) guide. If your system will be providing novel or risky functions, or handling extremely sensitive data, do this as early as possible.
 
 #### Step 2 — Select controls
 
