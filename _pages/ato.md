@@ -2,7 +2,7 @@
 title: Lifecycle of a Launch
 ---
 
-Every federal information system must go through NIST's [Risk Management Framework](background/) before it can be used to process federal information. This process culminates in a signed Authority to Operate (ATO) being issued. Because the ATO process is a complex, multi-step process which will constrain the design and implementation of your system, you should start thinking about how it applies to your system _before_ you begin designing and implementing it.
+Every federal information system must go through NIST's [Risk Management Framework](steps/) before it can be used to process federal information. This process culminates in a signed Authority to Operate (ATO) being issued. Because the ATO process is a complex, multi-step process which will constrain the design and implementation of your system, you should start thinking about how it applies to your system _before_ you begin designing and implementing it.
 
 ### Key roles
 
@@ -17,31 +17,31 @@ Every federal information system must go through NIST's [Risk Management Framewo
 
 ATO Sprints are staffed by cross-divisionally. Beyond the project team roles (ex: system owner, product owner, etc) ATO Sprint roles typically include:
 
-* **Authorizing Official (AO)**: Responsible for overall impact categorization and risk acceptance.
-* **Information System Security Officer (ISSO)**: Supports the information security system, consults on control selection, organizes scanning process. Reports to the Information System Security Manager (ISSM).
-* **Penetration tester(s)**: Conducts the penetration test after terms are agreed to as documented in the Rules of Engagement (RoE).
-* **Assessor**: Validates and verifies that the documented controls (see [Step 3](#step-3--document-the-controls)) actually work, using the assessment cases (see [Step 4](#step-4--assess-the-controls)).
+- **Authorizing Official (AO)**: Responsible for overall impact categorization and risk acceptance.
+- **Information System Security Officer (ISSO)**: Supports the information security system, consults on control selection, organizes scanning process. Reports to the Information System Security Manager (ISSM).
+- **Penetration tester(s)**: Conducts the penetration test after terms are agreed to as documented in the Rules of Engagement (RoE).
+- **Assessor**: Validates and verifies that the documented controls (see [Step 3](#step-3--document-the-controls)) actually work, using the assessment cases (see [Step 4](#step-4--assess-the-controls)).
 
 ### Steps
 
-See [Background](../background/).
+See [Background](../steps/).
 
 ### Re-authorization
 
 Your system may need to be reassessed and re-authorized if your application team is planning to make substantive changes, such as changes to:
 
-* Encryption methodologies
-* Administrative functionality within the application
-* The kinds of information you store (for example, [personally identifiable information (PII)](../privacy/))
-* The external services used or how/what data flows to/from them
-* Anything that will requires an update to the System Security Plan, system diagram, etc.
+- Encryption methodologies
+- Administrative functionality within the application
+- The kinds of information you store (for example, [personally identifiable information (PII)](../privacy/))
+- The external services used or how/what data flows to/from them
+- Anything that will requires an update to the System Security Plan, system diagram, etc.
 
 Example changes that do _not_ require re-authorization, as long as they don't include the above:
 
-* Features
-* Bug fixes
-* Interface changes
-* Documentation updates
+- Features
+- Bug fixes
+- Interface changes
+- Documentation updates
 
 The Authorizing Official determines whether a system needs re-authorization. If you're planning a change that you think may require re-authorization, contact them.
 

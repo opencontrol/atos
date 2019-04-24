@@ -3,14 +3,12 @@ primary:
     href: /
   - text: Lifecycle of a Launch
     href: ato/
-  - text: Background
-    href: background/
+  - text: Steps
+    href: steps/
   - text: System Security Plan
     href: ssp/
   - text: Impact Levels
     href: levels/
-  - text: Background
-    href: background/
   - text: Tips
     href: tips/
   - text: Laws
