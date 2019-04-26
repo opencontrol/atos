@@ -1,6 +1,6 @@
 title: OpenControl's Introduction to ATOs
 
-remote_theme: 18F/uswds-jekyll
+theme: uswds-jekyll
 
 styles:
   - assets/css/custom.css
