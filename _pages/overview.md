@@ -6,17 +6,24 @@ Every federal information system must go through NIST's [Risk Management Framewo
 
 ## Definitions
 
+- **ATO package:** The SSP and other documentation needed to get an ATO.
+- **Authority to Operate (ATO):** The approval for a government system to be run in production, and the compliance process for getting there.
+- **Compliance:** Ensuring that a system meets minimum security requirements.
 - **Information system** means a discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information ([44 U.S.C. § 3502](https://www.law.cornell.edu/uscode/text/44/3502#8)).
-- **System Security Plan (SSP):** "The purpose...is to provide an overview of the security requirements of the system and describe the controls in place or planned for meeting those requirements." ([NIST SP 800-18](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf#page=7))
+- **Security:** The sum of processes and features safeguarding systems and data.
+- **System Security Plan (SSP):** The primary document in an ATO package, the bulk of which contains the [NIST 800-53 security controls](https://nvd.nist.gov/800-53/Rev4). "The purpose...is to provide an overview of the security requirements of the system and describe the controls in place or planned for meeting those requirements." ([NIST SP 800-18](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf#page=7))
+
+For a full list, see the [NIST Glossary](https://csrc.nist.gov/Glossary).
 
 ## Roles
 
 Roles in ATO processes typically include:
 
-- **Assessor**: Validates and verifies that the documented controls (see [Step 3](../steps/#step-3-implement-security-controls)) actually work, using the assessment cases (see [Step 4](../steps/#step-4-assess-security-controls)).
-- **Authorizing Official (AO)**: Responsible for overall impact categorization and risk acceptance. The AO is ultimately responsible for determining if the risk of operating the system is acceptable, and if so, issuing an Authority to Operate (ATO) for that system.
+- **Assessor**: Responsible for checking the compliance of systems; sit in an agency's Security team. Validates and verifies that the documented controls (see [Step 3](../steps/#step-3-implement-security-controls)) actually work, using the assessment cases (see [Step 4](../steps/#step-4-assess-security-controls)).
+- **Authorizing Official (AO)**: Responsible for overall impact categorization and risk acceptance. The AO is ultimately responsible for determining if the risk of operating the system is acceptable, and if so, issuing an Authority to Operate (ATO) for that system. They often Designate this responsibility to one or more other people.
 - **Information System Security Officer (ISSO)**: Supports the information security system, consults on control selection, organizes scanning process. Reports to the Information System Security Manager (ISSM).
 - **Penetration tester(s)**: Conducts the penetration test after terms are agreed to as documented in the Rules of Engagement (RoE).
+- **Program team** : Those who are trying to build/launch the system.
 - **System Owner** The system owner is usually the product lead or tech lead of the project team. They will be named in the ATO documents and are the main contact during the evaluation process that leads up to an ATO.
 
 The long version: [NIST SP 800-37 Appendix D](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf#page=133)
