@@ -1,14 +1,30 @@
 primary:
   - text: Overview
     href: overview/
+    links: overview
   - text: Steps
     href: steps/
     links: steps
   - text: Categorization
     href: categorization/
+    links: categorization
   - text: Tips
     href: tips/
     links: tips
+
+overview:
+  - text: Intro
+    href: overview/#top
+  - text: Definitions
+    href: overview/#definitions
+  - text: Roles
+    href: overview/#roles
+  - text: FISMA
+    href: overview/#fisma
+  - text: Re-authorization
+    href: overview/#re-authorization
+  - text: ATO renewal
+    href: overview/#ato-renewal
 
 steps:
   - text: Introduction
@@ -25,6 +41,18 @@ steps:
     href: steps/#step-5-authorize-information-system
   - text: "6: Monitor Controls"
     href: steps/#step-6-monitor-security-controls
+
+categorization:
+  - text: Intro
+    href: categorization/#top
+  - text: Objectives
+    href: categorization/#categorize-using-the-3-security-objectives
+  - text: Considerations
+    href: categorization/#considerations
+  - text: Impact level
+    href: categorization/#selecting-the-overall-impact-level
+  - text: Examples
+    href: categorization/#examples
 
 tips:
   - text: General
