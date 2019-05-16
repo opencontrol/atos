@@ -1,5 +1,7 @@
 ---
 title: Security Categorization
+sidenav: categorization
+sticky_sidenav: true
 ---
 
 ## Overview
