@@ -20,3 +20,5 @@ github:
   organization: opencontrol
   repository: atos
   default_branch: master
+
+google_analytics_ua: UA-141012673-1
