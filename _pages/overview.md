@@ -8,10 +8,13 @@ Every federal information system must go through NIST's [Risk Management Framewo
 
 ## Definitions
 
+- **Assessment:** The step of the ATO process (and RMF) where the system and package are reviewed by a third party.
 - **ATO package:** The SSP and other documentation needed to get an ATO.
 - **Authority to Operate (ATO):** The approval for a government system to be run in production, and the compliance process for getting there.
 - **Compliance:** Ensuring that a system meets minimum security requirements.
 - **Information system** means a discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information ([44 U.S.C. § 3502](https://www.law.cornell.edu/uscode/text/44/3502#8)).
+- **POAM:** Plan of Action and Milestones. They are the TODOs following an assessment, which are usually low-risk security findings that need to be addressed.
+- **RMF:** The [NIST Risk Management Framework (RMF)](https://csrc.nist.gov/projects/risk-management/risk-management-framework-(RMF)-Overview), which is what most ATO processes are based on.
 - **Security:** The sum of processes and features safeguarding systems and data.
 - **System Security Plan (SSP):** The primary document in an ATO package, the bulk of which contains the [NIST 800-53 security controls](https://nvd.nist.gov/800-53/Rev4). "The purpose...is to provide an overview of the security requirements of the system and describe the controls in place or planned for meeting those requirements." ([NIST SP 800-18](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf#page=7))
 
