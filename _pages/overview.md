@@ -62,4 +62,4 @@ If it needs re-authorization, follow the usual steps for getting an ATO. You sho
 
 ## ATO renewal
 
-If your current ATO is going to expire, you'll need the ATO to be renewed. Follow the usual steps for getting an ATO. You should be able to reuse most of your existing ATO materials, assuming they have been kept up-to-date.
+Many ATOs are issued with a time limit, often this expiration is between one and three years. When an ATO nears expiration, you'll need the ATO to be renewed. Follow the usual steps for getting an ATO. You should be able to reuse most of your existing ATO materials, assuming they have been kept up-to-date.
