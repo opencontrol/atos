@@ -13,7 +13,7 @@ hero:
     href: overview/
 ---
 
-The goal of this guide is to provide project teams with information they need to launch software from a technical and compliance perspective. It explains requirements and best practices for projects, and the process of obtaining an ATO.
+The goal of this guide asfdasdfis to provide project teams with information they need to launch software from a technical and compliance perspective. It explains requirements and best practices for projects, and the process of obtaining an ATO.
 {: .usa-font-lead }
 
 An introduction to compliance for federal information systems:
